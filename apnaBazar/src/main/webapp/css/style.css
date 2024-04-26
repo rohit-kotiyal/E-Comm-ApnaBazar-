@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display-swap");
+body{
+	padding-top: 80px;
+	background: linear-gradient(to right, #00093c, #2d0b00);
+	font-weight: 600;
+	overflow-x: hidden !important;
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    background: transparent;
+    padding: 0.5rem 2%;
+    transition: all 0.50s ease;
+}
+
+.nav-link {
+	color: #fff;
+}
+
+.login-register{
+    background: #EEEEEE;
+    padding: 0;
+    margin-top: 1rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.btn-submit {
+	width: 30%;
+    height: 2.8rem;
+    background-color: #fff;
+    border-radius: 1.3rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: background-color 1s ease;
+}
+
+.btn-submit:hover {
+	background-color: #1aa090;/* #C239B3; */
+    transition: background-color 1s ease;
+    color: white;
+}
+
+header.sticky{
+	padding: 0.5rem 5%;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+}
+
+
+/* toast */
+#toast{
+	min-width: 300px;
+	position: fixed;
+	bottom: 30px;
+	left: 50%;
+	margin-left: -120px;
+	background: #333;
+	padding: 15px;
+	color: white;
+	text-align: center;
+	z-index: 1;
+	font-size: 18px;
+	visibility: hidden;
+	box-shadow: 0px 0px 100px #000;
+}
+
+#toast.display{
+	visibility: visible;
+	animation: fadeIn 0.5s, fadePut 0.5s 2.5s;
+}
+
+@keyframes fadeIn{
+	from{
+		bottom: 0;
+		opacity: 0;
+	}
+	to{
+		bottom: 30px;
+		opacity: 1;
+	}
+}
+
+@keyframes fadeOut{
+	from{
+		bottom: 30px;
+		opacity: 1;
+	}
+	to{
+		bottom: 0;
+		opacity: 0;
+	}
+}
