@@ -23,10 +23,10 @@ header{
 }
 
 .login-register{
-    background: #EEEEEE;
+    /* background: #EEEEEE; */
     padding: 0;
     margin-top: 1rem;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px rgb(65, 219, 224);
 }
 
 .btn-submit {
@@ -95,4 +95,8 @@ header.sticky{
 		bottom: 0;
 		opacity: 0;
 	}
+}
+
+.form-label{
+	color: #fff;
 }

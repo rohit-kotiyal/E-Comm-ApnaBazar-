@@ -137,6 +137,25 @@
     <% } %>
  </main>
  
+ 
+<!--  Number of Pages -->
+<nav>
+  <ul class="pagination justify-content-center mt-5">
+    <li class="page-item disabled">
+      <a class="page-link">Previous</a>
+    </li>
+        <li class="page-item active" aria-current="page">
+      <a class="page-link" href="index.jsp">1</a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#">Next</a>
+    </li>
+  </ul>
+</nav>
+ 
+ 
 <!--  Footer Section -->
  
  <footer class="footer">

@@ -94,6 +94,7 @@ function showToast(content){
     },5000);
 }
 
+
 function checkoutPage(){
 	window.location = "checkout.jsp"
 }

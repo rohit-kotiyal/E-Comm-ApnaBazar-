@@ -6,12 +6,13 @@
 <meta charset="UTF-8">
 <title>ApnaBazar-New-Registration</title>
 <%@include file="components/common_css_js.jsp" %>
+
 </head>
 <body>
 	<%@include file="components/navBar.jsp" %>
 	<div class="container login-register">
-    <div class="border p-4">
-      <h2 class="text-center">Registration Form</h2>
+    <div class="border p-4 border-0">
+      <h2 class="text-center text-light">Registration Form</h2>
       <form action="submitForm" method="post" enctype="multipart/form-data">
         <div class="row">
           <!-- First column -->
