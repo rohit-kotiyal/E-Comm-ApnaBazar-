@@ -1,7 +1,7 @@
 **Welcome to ApnaBazar - Java E-Commerce**
 
 **Overview:**
-ApnaBazar is a Java-based e-commerce platform crafted to deliver seamless shopping experiences. Built with Java, JSP, Servlets, and Hibernate for database interactions, and enhanced with Bootstrap for responsive design, it's your go-to solution for online storefront management. Whether you're a developer eager to contribute or a business owner aiming to establish an online presence, ApnaBazar provides a robust foundation for e-commerce websites.
+ApnaBazar is a Java-based e-commerce platform crafted to deliver seamless shopping experiences. Built with Java, JSP, Servlets, and Hibernate for database interactions, and enhanced with Bootstrap for responsive design.
 
 **Key Features:**
 1. User Authentication: Secure user authentication system for account management.
