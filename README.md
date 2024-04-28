@@ -13,10 +13,10 @@ ApnaBazar is a Java-based e-commerce platform crafted to deliver seamless shoppi
 7. Backend Logic: Java Servlets manage backend processes and HTTP requests.
 
 **Technologies:**
-Frontend: HTML, CSS, JavaScript, Bootstrap
-Backend: Java, JSP, Servlets
-Database: MySQL
-ORM: Hibernate
+1. Frontend: HTML, CSS, JavaScript, Bootstrap
+2. Backend: Java, JSP, Servlets
+3. Database: MySQL
+4. ORM: Hibernate
 
 **Get Started:**
 Clone the repository.
